@@ -4,9 +4,9 @@
 - [Live Demo](http://podcastboard.zangwang.tw/public/index.php)
 - [Previous repo (Not secure virsion)](https://github.com/Lidemy/mentor-program-4th-cybershota/pull/12)
 
-## 留言系統
-- 註冊/登入留言系統
-- 暫停/播放音訊
+## 音波留言系統
+- 註冊 / 登入留言系統
+- 暫停 / 跳轉 / 播放音訊
 - 會員修改暱稱
 - 顯示會員狀態（管理者 / 一般 / 停權）
 - 顯示留言時音訊播放時間點
