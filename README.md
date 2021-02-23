@@ -13,6 +13,7 @@
 - 顯示留言時間
 - 顯示留言於音波圖上
 - 留言編輯/刪除
+- 遭停權使用者留言屏蔽
 - 分頁
 
 ![](https://github.com/cybershota/imagebed/blob/main/podcastcomment_small.gif)
