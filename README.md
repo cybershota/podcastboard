@@ -1,6 +1,5 @@
 # Podcast 音波留言板
-模仿 SoundCloud 的音波留言版，使用第三方套件 [wavesurfer.js](https://wavesurfer-js.org/) 繪製音波圖；新增使用者管理後台；
-增加網站安全性，防止 XSS, SQL Injection, 會員密碼經過 hash 處理，部署於 Heroku。
+模仿 SoundCloud 的音波留言版，含會員註冊登入系統，管理員權限控制系統。增加網站安全性，防止 XSS, SQL Injection, 會員密碼經過 hash 處理，部署於 Heroku。
 
 - [Live Demo](http://podcastboard.zangwang.tw/public/index.php)
 - [Previous repo (Not secure virsion)](https://github.com/Lidemy/mentor-program-4th-cybershota/pull/12)
@@ -40,6 +39,7 @@
 - 防止 SQL Injection 攻擊
 - 會員密碼 Hash 處理
 - JSDOC 撰寫註解
+- 部署於 Heroku 使用 ClearDB
 
 ## 製作心得
 關於留言水平顯示在音波圖上，我將原始音訊時長換算為 100 整，DOM 子元素寬度 100%，依據音訊進度偏移 position:absolute; 的 left 趴數，竟然這樣合得起來！位置大概正確，好開心！音訊檔是直接 fetch FreeMusicArchive 的下載路徑，因為畫圖一定要讀滿全檔，所以載入有點慢，請見諒～
